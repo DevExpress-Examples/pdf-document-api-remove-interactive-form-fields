@@ -8,7 +8,7 @@
 
 * [Program.cs](./CS/RemoveInteractiveForm/Program.cs) (VB: [Program.vb](./VB/RemoveInteractiveForm/Program.vb))
 <!-- default file list end -->
-# How to delete interactive form fields from a PDF document
+# PDF Document API - Remove Interactive Form Fields from a Document
 
 
 This example shows how to remove a particular form field and a whole interactive form from a PDF document.
