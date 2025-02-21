@@ -4,23 +4,22 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Program.cs](./CS/RemoveInteractiveForm/Program.cs) (VB: [Program.vb](./VB/RemoveInteractiveForm/Program.vb))
-<!-- default file list end -->
 # PDF Document API - Remove Interactive Form Fields from a Document
-
 
 This example shows how to remove a particular form field and a whole interactive form from a PDF document.
 
+To remove all form fields from a document, call the [PdfDocumentProcessor.RemoveForm](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.RemoveForm) method.
 
-<h3>Description</h3>
+To remove a particular form field by its name, call the [PdfDocumentProcessor.RemoveFormField](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.RemoveFormField(System.String) method and pass a field name as an argument to this method.
 
-To remove all form fields from a document, call the&nbsp;<a href="https://documentation.devexpress.com/#DocumentServer/DevExpressPdfPdfDocumentProcessor_RemoveFormtopic">PdfDocumentProcessor.RemoveForm</a> method. <br>To remove a particular form field by its name, call the<strong>&nbsp;</strong><a href="https://documentation.devexpress.com/#DocumentServer/DevExpressPdfPdfDocumentProcessor_RemoveFormFieldtopic">PdfDocumentProcessor.RemoveFormField</a>  method and pass a field name as an argument to this method.
+## Files to Review
 
-<br/>
+* [Program.cs](./CS/RemoveInteractiveForm/Program.cs) (VB: [Program.vb](./VB/RemoveInteractiveForm/Program.vb))
 
+## Documentation
+
+* [Interactive Forms in PDF Documents](https://docs.devexpress.com/OfficeFileAPI/118284/pdf-document-api/interactive-forms)
 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
