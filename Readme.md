@@ -9,9 +9,10 @@
 
 This example shows how to remove a particular form field and a whole interactive form from a PDF document.
 
-To remove all form fields from a document, call the [PdfDocumentProcessor.RemoveForm](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.RemoveForm) method.
+The [PdfDocumentProcessor.RemoveForm](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.RemoveForm) method removes all form fields from a document. To remove a particular form field by its name, call the [PdfDocumentProcessor.RemoveFormField](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.RemoveFormField(System.String)) method and pass a field name as an argument to this method.
 
-To remove a particular form field by its name, call the [PdfDocumentProcessor.RemoveFormField](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.RemoveFormField(System.String) method and pass a field name as an argument to this method.
+>[!IMPORTANT]
+> You need a license for the **DevExpress Office File API Subscription** or **DevExpress Universal Subscription** to use this example in production code.
 
 ## Files to Review
 
